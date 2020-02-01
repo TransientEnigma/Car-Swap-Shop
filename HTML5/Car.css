@@ -1,0 +1,258 @@
+﻿body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formattedText {
+    background-color:yellow;
+    float:left;
+    color: white;
+    margin-top:200px;
+    margin-left: 40%;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Californian FB';
+    font-weight: 400;
+    font-size: larger;
+}
+    .formattedText table {
+        border:solid;
+        border-width:10px;
+        border-color: red;
+        min-width: 400px;
+    }
+
+    .formattedText td {
+        padding: 10px 10px 10px 10px;
+        background-color: #2d2d86;
+
+    }
+    h1 {
+
+        padding: 0% 1% 0% 1%;
+    }
+.textglow {
+    text-shadow: 0px 2px 10px yellow;
+}
+
+.textshadow {
+    text-shadow: 10px 8px 10px #808080;
+}
+
+.HeaderContainer {
+    float: left;
+    width: 100%;
+    /*margin:10px 10px 10px 10px;*/
+    background-color: #2d2d86;
+    border:solid;
+    border-color:orangered;
+}
+
+.Logo{
+    float:right;
+    width:15%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:0%;
+}
+.ArrowsAndText {
+    float: left;
+    width: 400px;
+    height:130px;
+ /*   border: solid;
+    border-color: gold;
+    border-width: 10px;
+    border-style:groove;*/
+    padding-left:10px;
+    margin-left: 50px;
+    color:white;
+
+}
+.HeaderText{
+    float:left;
+    width:100%;
+}
+.HeaderCompanyNameLeft {
+    float: left;
+    width: 30%;
+}
+
+.HeaderCompanyNameRight {
+    float: Right;
+    width: 45%;
+}
+.HeaderHistoryText{
+    float:left;
+    width:100%;
+}
+
+.ArrowsAndText img {
+    float: left;
+}
+.HeaderText{
+    float:left;
+}
+article {
+    border: solid;
+    border-color: orangered;
+    float: left;
+    width: 100%;
+}
+.ArticleContainerLeftSide {
+    float: left;
+    background-color: whitesmoke;
+    width: 83%;
+}
+.BigImage {
+    float: left;
+    margin-left:0px;
+    width: 80%;
+    background-color:whitesmoke;
+    background-image: url(../CarSwapImages/skids.png);
+    background-repeat: no-repeat;
+
+}
+.WelcomeMessage {
+    padding:5px 30px 5px 5px;
+    border-top:solid;
+    border-color: #2d2d86;
+    float: left;
+    width: 100%;
+    background-color: orangered;
+    border-bottom: 2px solid #2d2d86;
+}
+
+/*CarTable is in aCar.aspx*/
+.aCarTable {
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    background-color: #2d2d86;
+    border: solid;
+    border-width: 10px;
+    border-color: orangered;
+    font-weight: 600;
+    color: white;
+}
+    .aCarTable td{
+        background-color: #2d2d86;
+    }
+
+    .aCarTable img {
+        padding: 10px 10px 10px 10px;
+        border: solid;
+        border-width: 5px;
+        border-color: yellow;
+        margin-top: 25px;
+        width: 90%;
+    }
+
+.TableColumn {
+    float: left;
+    width: 19.5%;
+
+    border-width: 3px;
+
+}
+.InsideTableColumn {
+    background-color:antiquewhite;
+    margin-left: 0%;
+
+    border:solid;
+    border-width: 0px;
+    font-weight: 600;
+    color: #2d2d86;
+    padding: 0px 10px 10px 10px;
+}
+.ArticleRightSidebar {
+    float: right;
+    border: solid;
+    border-color: orangered;
+    background-color: #2d2d86;
+    width: 15%;
+    height: 730px;
+    padding: 40px 10px 10px 10px;
+    color: white;
+    font-size: 15px;
+}
+.ArticleRightSidebar a {
+    color: white;
+    font-size: 15px;
+}
+
+    .ArticleRightSidebar a:hover {
+        color: yellow;
+        font-weight: bold;
+    }
+.IconContainer {
+    border-left: solid;
+    border-color: orangered;
+    background-color: orangered;
+    float: left;
+    width: 100%;
+}
+
+
+.LinedUpIcons {
+    border-top:solid;
+    border-color:orangered;
+    float: left;
+    background-color: #2d2d86;
+    padding: 1% 10% 1% 10%;
+}
+footer a {
+    color: white;
+    font-size: 15px;
+}
+
+    footer a:hover {
+        color: red;
+        font-weight: bold;
+    }
+
+footer img {
+    padding: 10px 10px 10px 20px;
+}
+
+footer h5 {
+    padding-left: 1em;
+}
+
+
+.Copywrite {
+    float: left;
+    width: 100%;
+    border: solid;
+    border-color: orangered;
+    background-color:orangered;
+    height: 100px;
+}
+.numOne{
+    float:left;
+    width:30%;
+}
+.EnterSwap {
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 10%;
+    background-color: orangered;
+    color: black;
+    float: left;
+    padding: 10px;
+    height: 220px;
+    border: solid;
+    border-color: #2d2d86;
+    border-width: 5px;
+}
+.CarSelectTable {
+    margin-right: auto;
+    background-color: orangered;
+    color: black;
+    float: right;
+    padding: 10px;
+    height: 220px;
+    border: solid;
+    border-color: #2d2d86;
+    border-width:5px;
+}
+.CarSelectTable th, tr{
+    background-color:white;
+}
